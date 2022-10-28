@@ -3,6 +3,7 @@ html, body{
     height: 100%;
     font-family: fantasy;
     
+    
   }
 
   .everything{
@@ -19,7 +20,7 @@ html, body{
     background-color: #96CEB4;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 16px;
+    padding: 16px 30px;
     height: 70px;
   }
   
@@ -81,7 +82,7 @@ html, body{
   .box{
     display: flex;
     gap: 16px;   
-    padding: 16px;
+    max-width: 75%
   }
 
   .box > *{
@@ -89,9 +90,13 @@ html, body{
   }
 
   .box img{
-    height: 250px;
+    max-height: 200px;
+    min-width: 180px;
     margin: 0; 
     padding: 0;  
+    border-radius: 25px;
+    border: 1px solid #FFEEAD;
+
   }
   .right{
     display: flex; 
@@ -110,13 +115,50 @@ html, body{
     background-color: #D9534F;
     text-align: center;
     font-family: fantasy;
-    color: white;
-    border: 1.5px solid #FFEEAD;
+    
+    border: 1.5px solid #FFAD60;
     border-width: 1.5px 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: Center;
+    padding: 40px;
+    
+  }
+  .images{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    
+   
+  }
+
+  .img {
+    border-radius: 25px;
+    background-color: #96CEB4; 
+    width: 300px;
+    padding: 30px;
+    border: 1.5px solid #FFEEAD;
+  }
+  .images img{
+    width: 220px;
+    height: 300px;
+    border-radius: 25px;
+    border: 1px solid #FFEEAD; 
+
   }
   
   .examples h3{
     font-weight: bold;
+    background-color: #96CEB4;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1.5px solid #FFEEAD;
+    margin-bottom: 100px; 
+    margin-top: 0;
+    
   }
   .slogan{
     background-color: #96CEB4;
@@ -129,7 +171,7 @@ html, body{
     color:white;
     text-align: center;
     height: 70px;
-    border: 1.5px solid #FFEEAD;
+    border: 1.5px solid #FFAD60;
     border-width: 1.5px 0; 
     padding: 16px; 
   }
