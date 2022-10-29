@@ -149,7 +149,7 @@ html, body{
 
   }
   
-  .examples h3{
+  h3{
     font-weight: bold;
     background-color: #96CEB4;
     display: inline-block;
@@ -163,8 +163,37 @@ html, body{
   .slogan{
     background-color: #96CEB4;
     min-height: 50px;
+    padding: 40px;
+
     
   }
+
+  .slogan-container{
+    display: flex; 
+    flex: 1;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .slogan-container h3{
+    background-color: #D9534F;
+  }
+  
+  .slogan-container img{
+    max-width: 800px;
+    border-radius: 25px;
+    border: 1px solid #FFEEAD;
+  }
+
+  .slogan-img{
+    background-color: #D9534F;
+    padding: 30px 70.5px;
+    border: 1.5px solid #FFEEAD;
+    border-radius: 25px;
+  }
+
+  
 
   footer{
     background-color:#D9534F;
